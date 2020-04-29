@@ -60799,6 +60799,38 @@ MonoBehaviour:
     m_ParentHash: 756556552
   - m_Hash: -725336713
     m_ParentHash: 756556552
+--- !u!1 &2063778294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7953142408319452974, guid: 72abf15595cb34bc4af5ddaea7eb260f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7953142406255937240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2063778295
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063778294}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05075264, y: -0.46027386}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3734684, y: 0.100453615}
+  m_EdgeRadius: 0
 --- !u!95 &2063778296 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7953142408319452975, guid: 72abf15595cb34bc4af5ddaea7eb260f,
@@ -60818,6 +60850,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2063778298, guid: 72abf15595cb34bc4af5ddaea7eb260f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: fff140a43d1d7436bb957552fb23c0eb, type: 2}
+    - target: {fileID: 2063778298, guid: 72abf15595cb34bc4af5ddaea7eb260f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.041749954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063778298, guid: 72abf15595cb34bc4af5ddaea7eb260f, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.08474964
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063778298, guid: 72abf15595cb34bc4af5ddaea7eb260f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.53150177
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063778298, guid: 72abf15595cb34bc4af5ddaea7eb260f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.84949934
+      objectReference: {fileID: 0}
     - target: {fileID: 7953142408319452960, guid: 72abf15595cb34bc4af5ddaea7eb260f,
         type: 3}
       propertyPath: m_LocalPosition.x
