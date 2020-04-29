@@ -3441,7 +3441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Winner Winner Chicker Dinner!
+  m_Text: Winner Winner Chicken Dinner!
 --- !u!222 &1450081235
 CanvasRenderer:
   m_ObjectHideFlags: 0
