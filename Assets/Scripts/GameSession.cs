@@ -59,7 +59,7 @@ public class GameSession : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
     }
 
-    private void ResetGameSession()
+    public void ResetGameSession()
     {
         SceneManager.LoadScene(0);
         Destroy(gameObject);
